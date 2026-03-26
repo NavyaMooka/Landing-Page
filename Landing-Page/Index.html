@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">MyBrand</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+    <button class="mode" onclick="toggleMode()">🌙</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Grow Your Skills With Us</h1>
+    <p>Join our internship program and build real-world projects</p>
+    <button class="cta" onclick="scrollToContact()">Get Started</button>
+  </div>
+</section>
+
+<section id="about" class="about reveal">
+  <h2>About Us</h2>
+  <p>
+    Our platform is focused on empowering students with practical knowledge
+    through skill-based learning. We help learners grow by providing structured
+    training, hands-on experience, and guidance to prepare them for real-world
+    challenges and career opportunities.Our platform is focused on empowering students with practical knowledge
+    through skill-based learning. We help learners grow by providing structured
+    training, hands-on experience, and guidance to prepare them for real-world
+    challenges and career opportunities.
+  </p>
+</section>
+
+<section id="features" class="features">
+  <div class="card reveal">🚀 Fast Learning</div>
+  <div class="card reveal">🎯 Real Projects</div>
+  <div class="card reveal">📜 Certificate</div>
+</section>
+
+<section id="contact" class="contact reveal">
+  <button class="cta" onclick="scrollToContact()">Contact us</button>
+</section>
+<footer class="footer">
+  <p>© 2025 MyBrand. All Rights Reserved.</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

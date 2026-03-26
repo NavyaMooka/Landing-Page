@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.port": 5001,
+    "python-envs.pythonProjects": [
+        {
+            "path": "pwa-econmerce",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}
